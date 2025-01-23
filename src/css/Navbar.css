@@ -1,0 +1,41 @@
+ol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: rgb(240, 233, 233);
+    list-style-type: none; /
+}
+
+
+li {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+li:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: rgb(240, 233, 233);
+    font-weight: bold; /* Make the text bold */
+}
+
+
+a:hover {
+    color: #fff; 
+}
+
+
+.navbar {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+}
