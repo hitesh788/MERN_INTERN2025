@@ -1,0 +1,41 @@
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-container i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+  }
+  
+  input {
+    width: 250px;
+    padding: 10px 10px 10px 30px; /* Space for the icon */
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  h25 {
+    color: red;       /* Makes the text red */
+    font-size: 10px;  /* Reduces the font size */
+  }
+  

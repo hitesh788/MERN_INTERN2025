@@ -21,7 +21,7 @@ function LoginPage() {
     return (
         <div className="login-container">
             <div className="form-wrapper">
-                <h2>Login</h2>
+                <h2>Sign Up</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="email">Email</label>
@@ -47,7 +47,7 @@ function LoginPage() {
                     </div>
                     <a href="/home">
                         <button type="submit" className="btn">
-                            Login
+                            Sign In
                         </button>
                     </a>
                 </form>

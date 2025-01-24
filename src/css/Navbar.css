@@ -1,12 +1,19 @@
+
+
 ol {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
     padding: 1rem 2rem;
-    background-color: #333;
+    background-color: #7c7a7d;
     color: rgb(240, 233, 233);
-    list-style-type: none; /
+    list-style-type: none; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 96%;
+    z-index: 999;
 }
 
 
@@ -18,7 +25,7 @@ li {
 
 
 li:hover {
-    background-color: #555;
+    background-color: #a7b8f2e3;
     transition: background-color 0.3s ease;
 }
 
@@ -37,5 +44,6 @@ a:hover {
 
 .navbar {
     font-family: 'Arial', sans-serif;
+    background-color: #333;
     font-size: 1.2rem;
 }

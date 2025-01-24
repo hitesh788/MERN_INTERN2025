@@ -29,9 +29,9 @@ const toggleDropdown = () =>{
             </ul>)}
           </div>
           <li><Link to="/signup">Signup</Link></li> 
-          <li><Link to="/UseMemo">UseMemo</Link></li>
+          <li><Link to="/use-memo">UseMemo</Link></li>
           <li><Link to="/use-ref">UseRef</Link></li>
-          <li><Link to="/use-call">UseCallback</Link></li>
+          <li><Link to="/use-callback">UseCallback</Link></li>
          
         </ol>
       </nav>
