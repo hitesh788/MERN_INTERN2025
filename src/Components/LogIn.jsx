@@ -23,6 +23,8 @@ const LogIn = ({ onLogIn }) => {
       <form onSubmit={handleSubmit}>
         <div className="input-container">
           <i className="fas fa-map"></i> {/* User icon */}
+          <h22>Use any username to test the functionality </h22>
+          <br></br>
           <input
             type="text"
             placeholder="Username"
@@ -34,13 +36,18 @@ const LogIn = ({ onLogIn }) => {
         <br />
         <div className="input-container">
           <i className="fas fa-lock"></i> {/* Lock icon */}
+
+          <h22>Use any password to test the functionality </h22>
+          <br></br>
           <input
             type="password"
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
+            
           />
+          
         </div>
         <br />
         <div>

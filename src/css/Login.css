@@ -39,3 +39,11 @@
     font-size: 10px;  /* Reduces the font size */
   }
   
+h20{
+  color: rgb(0, 0, 0);      /* Makes the text blue */
+  font-size: 12px;  /* Increases the font size */
+}
+h22{
+  color: rgb(0, 0, 0);     /* Makes the text green */
+  font-size: 12px;  /* Decreases the font size */
+}
