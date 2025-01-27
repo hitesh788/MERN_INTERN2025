@@ -18,7 +18,8 @@ import './App.css';
 import ReactLifeCycle from './Components/ReactLifeCycle';
 import LogOut from './Components/LogOut';
 import Student from './Components/UseContext';
-
+import LazyLoadingWithSuspense from './Components/Memoization/LazyLoadingWithSuspense';
+import HoC from './HoC/HoC';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false); // Authentication state
@@ -77,6 +78,8 @@ function App() {
         <Route path="/logout" element={<ProtectedRoute element={<LogOut />} />}
           />
           <Route path="/student" element={<Student />} />
+          <Route path="/lazyload" element={<LazyLoadingWithSuspense />} />
+          <Route path="/hoc" element={<HoC />} />
         </Routes>
       </BrowserRouter>
     </div>
